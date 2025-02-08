@@ -3,7 +3,9 @@
 -> Accessing Elements
 -> Index
 -> Slicing
--> Adding and Removing Elements"""
+-> Adding and Removing Elements
+-> Modifying and Searching elements
+-> Sorting and Reversing elements"""
 
 #This is list - can store multiple data types,In this case this is String
 cars=['BMW M5','Porsche 911','Pagani Huayra','Lamborghini Huracan','Audi R8'] 
