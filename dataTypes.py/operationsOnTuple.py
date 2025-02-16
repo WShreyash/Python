@@ -1,11 +1,11 @@
 """Write a Python program to perform following operations on Tuple.
--> Creating a Tuple
--> Accessing Elements
--> Index
--> Slicing
--> Concatenation
+-> Creating a Tuple - tuple=( )
+-> Accessing Elements - tuple[0], tuple[-1]
+-> Index - tuple.index(7)
+-> Slicing - tuple[1:3]=[6,8]
+-> Concatenation - t3=t1+t2
 -> Deleting - have to convert tuple into list then tuple again 
--> Nested Tuples"""
+-> Nested Tuples - tuple((1,3,4), (2,6,9))"""
 
 tuple = (1.3, 7, 4, "Hello")
 print("Accessing element: ", tuple[0], tuple[-1])
@@ -20,15 +20,6 @@ print("concatenation: ", tuple3)
 
 # Original Tuple
 tup = (10, 20, 30, 40, 50)
-
-#deleting
-# Convert tuple to list
-temp_list = list(tup)
-# Remove an element (e.g., 30)
-temp_list.remove(30)
-# Convert back to tuple
-tup = tuple(temp_list)
-print("Updated Tuple:", tup)
 
 #nested tuple
 nested_tuple=((1,3,4), (1.3,1))

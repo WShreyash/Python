@@ -1,16 +1,16 @@
 """Write a Python program to perform following operations on String.
--> Creating a String
--> Accessing Characters in string
--> Slicing
--> Index
--> Length of String
--> lower()
--> upper()
--> capitalize()
--> title()
--> Updating a String
--> Concatenating a Strings
--> Repeating Strings"""
+-> Creating a String - str=" "
+-> Accessing Characters in string - str[0]
+-> Slicing - str[1:3]
+-> Index - str.index['o']
+-> Length of String - len(str)
+-> lower() - str.lower()
+-> upper() - str.upper()
+-> capitalize() - str.capitalize
+-> title() -str.title()
+-> Updating a String - mutale add directly str=" "
+-> Concatenating a Strings - str1+str2
+-> Repeating Strings- str*3"""
 
 # Creating a String
 str1 = "Hello, World!"
@@ -25,6 +25,7 @@ print("Sliced String (0:5):", str1[0:5])
 
 # Index
 print("Character at Index 7:", str1[7])
+print("Index of char:",str1.index('o'))
 
 # Length of String
 print("Length of String:", len(str1))

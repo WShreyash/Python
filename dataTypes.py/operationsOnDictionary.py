@@ -1,15 +1,15 @@
 """Write a Python program to perform following operations on Dictionary.
--> Creating a Dictionary
--> Accessing a Dictionary
--> Ordered
--> Adding Elements
--> Removing Elements
--> Duplicate
--> Accessing Keys
--> Accessing Values
--> Index
--> Dictionary Length
--> Dictionary Items - Data Types"""
+-> Creating a Dictionary - dic={"name":"kagenou", "age":18}
+-> Accessing a Dictionary - dic["name"]
+-> Ordered - follows insertion order
+-> Adding Elements - dic["city"]="New York"
+-> Removing Elements - del dic["age"]
+-> Duplicate - will overwrite previous key
+-> Accessing Keys - keys=dic.keys() print(list.(keys))
+-> Accessing Values - values=dic.values() print(list.(values))
+-> Index - keys acts as index
+-> Dictionary Length - len(dic)
+-> Dictionary Items - Data Types - keys can store differnt data types"""
 
 # Creating a Dictionary
 dict1 = {"name": "Shreyash", "age": 18, "city": "New York"}

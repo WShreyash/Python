@@ -1,16 +1,16 @@
 """Write a Python program to perform following operations on Set.
--> Creating a Set
--> Accessing Elements
--> Index - not possible as sets are unordered
+-> Creating a Set - {}
+-> Accessing Elements - for item in set print(item)
+-> Index - not possible as sets are unordered 
 -> Slicing - not possible as sets are unordered
 -> Order - not possible as sets are unordered
--> Adding Elements 
--> Removing Elements 
+-> Adding Elements - set.add(' ')
+-> Removing Elements - set.remove(' ')
 -> Duplicate - not allowed
--> Changeable elements"""
+-> Changeable elements - modifying is not allowed"""
 
 # Creating a Set
-set1 = {"apple", "banana", "cherry"}
+set1 = {"apple", "banana", "cherry",69}
 print("Created Set:", set1)
 
 # Accessing Elements (Using a loop since direct indexing is not possible)

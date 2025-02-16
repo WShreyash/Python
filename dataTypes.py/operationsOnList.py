@@ -1,11 +1,11 @@
 """Write a Python program to perform following operations on List.
--> Creating a List
--> Accessing Elements
--> Index
--> Slicing
--> Adding and Removing Elements
--> Modifying and Searching elements
--> Sorting and Reversing elements"""
+-> Creating a List - [ ]
+-> Accessing Elements - list[0] ,list[-1]
+-> Index - list.index('BMW')
+-> Slicing - list[1:3]=[' ',' ']
+-> Adding and Removing Elements - list.insert(3,'Lambo'), list.append('Apache') ,list.remove('BMW'), list.pop(0)
+-> Modifying and Searching elements - list[0]='Porshe', ('BMW M5' in cars)
+-> Sorting and Reversing elements - list.sort(), list.reverse()"""
 
 #This is list - can store multiple data types,In this case this is String
 cars=['BMW M5','Porsche 911','Pagani Huayra','Lamborghini Huracan','Audi R8'] 
@@ -44,9 +44,10 @@ print("\nRemoved using .remove():",cars)
 cars.pop() #If value is not specified, removes the last element
 print("\nRemoved using .pop():",cars)
 
-#Modifying/Changing
+#Modifying/Changing/searching
 cars[2]='Nissan GTR'
 print("\nModified Element:",cars)
+print('BMW M5' in cars)
 
 
 #Sorting Elements
